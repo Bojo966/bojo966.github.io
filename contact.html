@@ -24,10 +24,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>MDL-Static Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-orange.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 </head>
 
 <body>
@@ -36,6 +35,7 @@
             <div class="mdl-layout__header-row portfolio-logo-row">
                 <span class="mdl-layout__title">
                     <div class="portfolio-logo"></div>
+                <span class="mdl-layout__title">Simple portfolio website</span>
                 </span>
             </div>
             <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
@@ -59,197 +59,37 @@
             <div class="mdl-grid portfolio-max-width portfolio-contact">
                 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Шаблон за създаване на отворен курс за СофтУни</h2>
+                        <h2 class="mdl-card__title-text">Contact</h2>
                     </div>
                     <div class="mdl-card__media">
-                        <img class="article-image" id="schedule" src=" images/schedule.jpeg" border="0" alt="">
+                        <img class="article-image" src=" images/contact-image.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__supporting-text">
                         <p>
-                            В този документ е описана необходимата информация от лекторите на отворени курсове в СофтУни. За изготвянето на страницата на обучението, както и стартирането на маркетингова кампания, е нужно да бъдат покрити следните изисквания месец преди старта на
-                            курса.
+                            Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
                         </p>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">1. Информация за лектора</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
+                        <p>
+                            Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet.
+                        </p>
                         <form action="#" class="">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="lecturer-name">
-                                <label class="mdl-textfield__label" for="lecturer-name">Име</label>
+                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
+                                <label class="mdl-textfield__label" for="Name">Name...</label>
                                 <span class="mdl-textfield__error">Letters and spaces only</span>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <textarea class="mdl-textfield__input" type="text" rows="6" id="lecturer-description"></textarea>
-                                <label class="mdl-textfield__label" for="lecturer-description">Описание</label>
+                                <input class="mdl-textfield__input" type="text" id="Email">
+                                <label class="mdl-textfield__label" for="Email">Email...</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="lecturer-softuni-profile">
-                                <label class="mdl-textfield__label" for="lecturer-softuni-profile">Потребителско име в СофтУни</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
-                                <div class="mdl-tooltip" data-mdl-for="lecturer-softuni-profile">
-                                    Към профила трябва да има снимка, телефон и мейл за връзка
-                                </div>
+                                <textarea class="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
+                                <label class="mdl-textfield__label" for="note">Enter note</label>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">2. Информация за обучението</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <form action="#" class="">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="course-name">
-                                <label class="mdl-textfield__label" for="course-name">Име на обучението</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
-                            </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <textarea class="mdl-textfield__input" type="text" rows="6" id="course-description"></textarea>
-                                <label class="mdl-textfield__label" for="course-description">Описание на курса</label>
-                                <div class="mdl-tooltip" data-mdl-for="course-description">
-                                    Обща информация за това какво ще се изучава в курса. До 100 думи (1000 символа):
-                                </div>
-                            </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="course-resources">
-                                <label class="mdl-textfield__label" for="course-resources">Допълнителни материали и ресурси</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
-                                <div class="mdl-tooltip" data-mdl-for="course-resources">
-                                    Необходим софтуер или хардуер за участие в курса
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">3. Умения</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <form action="">
-                            <h4>Шест умения, които обучаващите се ще придобият по време на курса. </h4>
-                            <ul class="demo-list-icon mdl-list" id="skills-list">
-                            </ul>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input skills-of-course" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="skill-input">
-                                <label class="mdl-textfield__label" for="skill-inputs">Умение</label>
-                            </div>
-                            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="add-skill-btn"><i class="material-icons">add</i></button>
-                        </form>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">4. Изисквания и препоръки към кандидатстващите</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <form action="">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input skills-of-course" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="course-prerequesites">
-                                <label class="mdl-textfield__label" for="course-prerequesites">Изисквания и препоръки</label>
-                                <div class="mdl-tooltip" data-mdl-for="course-prerequesites">
-                                    За кого е подходящ курса и какъв професионален опит или знания трябва да имат кандидатстващите и с каква техника/софтуер трябва да разполагат.
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">5. Форми на обучение</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <form action="">
-                            <label for="switch1" class="mdl-switch mdl-switch mdl-js-switch mdl-js-ripple-effect">
-                            <input type="checkbox" id="switch1" class="mdl-switch__input">
-                            <span class="mdl-switch__label">Присъствена</span>
-                          </label>
-                            <label for="switch2" class="mdl-switch mdl-js-switch mdl-js-ripple-effect">
-                            <input type="checkbox" id="switch2" class="mdl-switch__input">
-                            <span class="mdl-switch__label">Онлайн</span>
-                          </label>
-                        </form>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">6. Програма на курса</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <form action="#" class="">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="lecture-name">
-                                <label class="mdl-textfield__label" for="lecture-name">Име на лекцията</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
-                            </div>
-                            <ul class="demo-list-icon mdl-list" id="lecture-subtasks">
-                            </ul>
-
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,а-я,А-Я,a-z, ]*" type="text" id="lecture-subtask-name">
-                                <label class="mdl-textfield__label" for="lecture-subtask-name">Подзадача/умение от лекцията</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
-                                <div class="mdl-tooltip" data-mdl-for="lecture-subtask-name">
-                                    Въведете описание на подзадача или умение от лекцията. Оптимално около 3 описания.
-                                </div>
-                            </div>
-                            <button id="add-lecture-subtask-name" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                                    <i class="material-icons">add</i>
-                            </button>
-                            <div class="mdl-tooltip" data-mdl-for="add-lecture-subtask-name">
-                                Добавяне на подзадачата/умението.
-                            </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <!-- Slider with Starting Value -->
-                                <div class="mdl-tooltip" data-mdl-for="day-picker">
-                                    Ден от месеца:
-                                </div>
-                                <input id="day-picker" class="mdl-slider mdl-js-slider" type="range" min="1" max="31" value="1" tabindex="0">
-                                <label id="day-picker-label" for="day-picker" class="mdl-textfield__label">
-                                    1
-                                </label>
-                            </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <!-- Slider with Starting Value -->
-                                <div class="mdl-tooltip" data-mdl-for="month-picker">
-                                    Ден от месеца:
-                                </div>
-                                <input id="month-picker" class="mdl-slider mdl-js-slider" type="range" min="1" max="12" value="1" tabindex="0">
-                                <label id="month-picker-label" for="day-picker" class="mdl-textfield__label">
-                                        1
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">7. Изпит</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <form action="">
-                            <label for="has-test" class="mdl-switch mdl-switch mdl-js-switch mdl-js-ripple-effect">
-                                <input type="checkbox" id="has-test" class="mdl-switch__input">
-                                <span class="mdl-switch__label">Тест</span>
-                              </label>
-                            <label for="has-algo-tasks" class="mdl-switch mdl-js-switch mdl-js-ripple-effect">
-                                <input type="checkbox" id="has-algo-tasks" class="mdl-switch__input">
-                                <span class="mdl-switch__label">Съвкупност от алгоритмични задачи за определено време</span>
-                              </label>
-                            <label for="has-exam-project" class="mdl-switch mdl-js-switch mdl-js-ripple-effect">
-                                    <input type="checkbox" id="has-exam-project" class="mdl-switch__input">
-                                    <span class="mdl-switch__label">Задание, което да се подготви за определеното време.</span>
-                                  </label>
-                            <label for="has-course-project" class="mdl-switch mdl-js-switch mdl-js-ripple-effect">
-                                        <input type="checkbox" id="has-course-project" class="mdl-switch__input">
-                                        <span class="mdl-switch__label">Задание за самоподготовка, което  се защитава пред комисия.</span>
-                            </label>
+                            <p>
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                                    Submit
+                                </button>
+                            </p>
                         </form>
                     </div>
                 </div>
@@ -268,8 +108,6 @@
         </main>
     </div>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./index.js"></script>
 </body>
 
 </html>
