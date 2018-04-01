@@ -1,213 +1,314 @@
 <!DOCTYPE html>
 <html>
+<title>cv.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/index.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
 
-<head>
-    <title>Bozhidar Gevechanov</title>
+<body class="cv-light-grey">
 
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="The Curriculum Vitae of Bozhidar Gevechanov" />
-    <meta charset="UTF-8">
+    <!-- Page Container -->
+    <div class="cv-content cv-margin-top" style="max-width:1400px;">
 
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+        <!-- The Grid -->
+        <div class="cv-row-padding">
 
-    <!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
+            <!-- Left Column -->
+            <div class="cv-third">
 
-<body id="top">
-    <div id="cv" class="instaFade">
-        <div class="mainDetails">
-            <div id="headshot" class="quickFade">
-                <img src="bojo.jpg" alt="Bozhidar Gevechanov" />
+                <div class="cv-white cv-text-grey cv-card-4">
+                    <div class="cv-display-container">
+                        <img src="/images/bojo.jpg" style="width:100%" alt="Avatar">
+                        <div class="cv-display-bottomleft cv-container cv-text-black">
+                            <h1>Bozhidar Gevechanov</h1>
+                        </div>
+                    </div>
+                    <div class="cv-container">
+                        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aperiam ipsam explicabo est harum nobis hic vero eos neque soluta. Quam fugiat maxime vel excepturi in quidem error quisquam iure.
+                        </h3>
+                        <p>
+                            <i class="fa fa-briefcase fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>Designer</p>
+                        <p>
+                            <i class="fa fa-home fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>London, UK</p>
+                        <p>
+                            <i class="fa fa-at fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>ex@mail.com</p>
+                        <p>
+                            <i class="fa fa-phone fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>1224435534</p>
+                        <hr>
+
+                        <p class="cv-large">
+                            <b>
+                                <i class="fa fa-lightbulb-o fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>Skills</b>
+                        </p>
+                        <p>Adobe Photoshop</p>
+                        <div class="cv-light-grey cv-round-xlarge cv-small">
+                            <div class="cv-container cv-center cv-round-xlarge cv-teal" style="width:90%">90%</div>
+                        </div>
+                        <p>Photography</p>
+                        <div class="cv-light-grey cv-round-xlarge cv-small">
+                            <div class="cv-container cv-center cv-round-xlarge cv-teal" style="width:80%">
+                                <div class="cv-center cv-text-white">80%</div>
+                            </div>
+                        </div>
+                        <p>Illustrator</p>
+                        <div class="cv-light-grey cv-round-xlarge cv-small">
+                            <div class="cv-container cv-center cv-round-xlarge cv-teal" style="width:75%">75%</div>
+                        </div>
+                        <p>Media</p>
+                        <div class="cv-light-grey cv-round-xlarge cv-small">
+                            <div class="cv-container cv-center cv-round-xlarge cv-teal" style="width:50%">50%</div>
+                        </div>
+                        <br>
+
+                        <p class="cv-large cv-text-theme">
+                            <b>
+                                <i class="fa fa-globe fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>Languages</b>
+                        </p>
+                        <p>English</p>
+                        <div class="cv-light-grey cv-round-xlarge">
+                            <div class="cv-round-xlarge cv-teal" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Spanish</p>
+                        <div class="cv-light-grey cv-round-xlarge">
+                            <div class="cv-round-xlarge cv-teal" style="height:24px;width:55%"></div>
+                        </div>
+                        <p>German</p>
+                        <div class="cv-light-grey cv-round-xlarge">
+                            <div class="cv-round-xlarge cv-teal" style="height:24px;width:25%"></div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <br>
+
+                <!-- End Left Column -->
             </div>
 
-            <div id="name">
-                <h1 class="quickFade delayTwo">Bozhidar Gevechanov</h1>
-                <h3 class="quickFade delayThree">It's kind of fun to do the impossible ~ W. Disney</h3>
+            <!-- Right Column -->
+            <div class="cv-twothird">
+
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('work')">
+                        <i class="fa fa-suitcase fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Work Experience
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                    <div id="work" class="cv-container cv-hide cv-show">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Front End Developer / cvschools.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Jan 2015 -
+                                <span class="cv-tag cv-teal cv-round">Current</span>
+                            </h6>
+                            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Web Developer / something.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Mar 2012 - Dec 2014</h6>
+                            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Graphic Designer / designsomething.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Jun 2010 - Mar 2012</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('education')">
+                        <i class="fa fa-book fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Education
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                    <div id="education" class="cv-container cv-hide cv-show">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>cvSchools.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>London Business School</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>School of Coding</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('certificates')">
+                        <i class="fa fa-certificate fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Certificates
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                    <div id="certificates" class="cv-container cv-hide ">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>cvSchools.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>London Business School</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>School of Coding</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('projects')">
+                        <i class="fa fa-code fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Projects
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                    <div id="projects" class="cv-container cv-hide ">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>cvSchools.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>London Business School</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>School of Coding</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('volunteering')">
+                        <i class="fa fa-heart fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Volunteering
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                    <div id="volunteering" class="cv-container cv-hide ">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>cvSchools.com</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>London Business School</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>School of Coding</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- End Right Column -->
             </div>
 
-            <div id="contactDetails" class="quickFade delayFour">
-                <ul>
-                    <li>29.10.1996</li>
-                    <li><a href="mailto:stil.2910@gmail.com" target="_blank">stil.2910@gmail.com</a></li>
-                    <li><a href="https://github.com/Bojo966">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/bozhidar-gevechanov-744aa2145/">LinkedIn</a></li>
-                    <li>+359 886 989 989</li>
-                </ul>
-            </div>
-            <div class="clear"></div>
+            <!-- End Grid -->
         </div>
 
-        <div id="mainArea" class="quickFade delayFive">
-            <section>
-                <article>
-                    <div class="sectionTitle">
-                        <h1>Personal Profile</h1>
-                    </div>
-
-                    <div class="sectionContent">
-                        <p>Being passionate about programming, entrepreneurship and marketing, I try to combine skills from those fields of interests into solving tasks and being more certain and responsible when taking complex decisions.</p>
-                        <p>With solid experience in talking in front of big audiences on technical subjects and also in presenting a pitch/idea/prototype in front of a more non-technical audience</p>
-                    </div>
-                </article>
-                <div class="clear"></div>
-            </section>
-
-            <section>
-                <div class="sectionTitle">
-                    <h1>Key Skills</h1>
-                </div>
-
-                <div class="sectionContent">
-                    <ul class="keySkills">
-                        <li>.NET development (ASP.NET, Entity Framework, Unity3D)</li>
-
-                        <hr>
-
-                        <li>JS back-end development using express</li>
-
-                        <hr>
-
-                        <li>JS front-end development (HTML, CSS, JS, jQuery, Bootstrap 3, Material Design lite, little experience in React)</li>
-
-                        <hr>
-
-                        <li>Speaking and giving technical lectures</li>
-
-                        <hr>
-
-                        <li>Database skills (MSSQL, MySQL, little experience with MongoDb, Firebase and Kinvey) </li>
-
-                        <hr>
-
-                        <li>Good communication skills </li>
-
-                        <hr>
-
-                        <li>Team management and organization skills</li>
-
-                        <hr>
-
-                        <li>Learning and adapting fast to different problems and situations even if this costs additional effort</li>
-
-                        <hr>
-
-                    </ul>
-                </div>
-                <div class="clear"></div>
-            </section>
-
-
-
-            <section>
-                <div class="sectionTitle">
-                    <h1>Work Experience</h1>
-                </div>
-
-                <div class="sectionContent">
-                    <article>
-                        <h2>Developer at Codexio</h2>
-                        <p class="subDetails">Oct 2017 - Present</p>
-                        <p>Development of a hotel booking system API using Node + Express + Sequelize(ORM) + MySQL</p>
-                    </article>
-
-                    <article>
-                        <h2>Training Lead - Open Courses at <a href="https://softuni.bg">Software University</a></h2>
-                        <p class="subDetails">April 2017 - October 2017</p>
-                        <p>By taking the responsibility for the "Open Courses" in the company I stumbled upon many organizational and communication challenges, which helped me increase my skills in those areas. Also developed an automation for the process
-                            and integrated Scrum, so that everything can be more transparent for the "product owners" and helpful for the person that is taking this position, by using a reminder system for every task in the process.</p>
-                        <p>Organized more than 15 courses on different technologies and tech fields such as Game development, QA, Robotics and Embedded systems, and other market trend technologies, such as Kotlin for Android, Blockchain development and Dev
-                            Ops
-                        </p>
-                    </article>
-
-                    <article>
-                        <h2>Technical Trainer at <a href="https://softuni.bg">Software University</a></h2>
-                        <p class="subDetails">April 2016 - Oct 2017</p>
-                        <p>The position's requirements included creating educational materials (presentations, exercises, exams, workshops) and using them to give lectures and solve exercises live in front of the "class" and the people that are watching
-                            the live stream. I have participated in the building of the whole C# developer track and which in summary includes: C# as a language (incl. Mono), .NET, MSSQL, MySQL, Entity Framework, ASP.NET and solid knowledge of the HTTP
-                            request - response mechanisms, design patterns and solid knowledge of OOP and key components of writing high quality code .
-                            <br> Additional tracks in which I've participated are the JavaScript Basics & Core and Python Basics & Fundamentals
-                        </p>
-                    </article>
-                    <article>
-                        <h2>Co-Founder and Lead Developer of "Избери Образование 2018"</h2>
-                        <p class="subDetails">Oct 2017 - Present</p>
-                        <p>A non profit organization that aims to create a ranking of the Universities of Bulgaria based on different criteria, so that people can easily compare the pros and cons of studying one specialty in one university or another.</p>
-                        <p>Currently director of the organization with 6 members and main developer of the web platform that uses React for front-end and Express.js for back-end and MongoDb for a database storage.</p>
-                    </article>
-
-                </div>
-                <div class="clear"></div>
-            </section>
-            <section>
-                <div class="sectionTitle">
-                    <h1>Awards</h1>
-                </div>
-
-                <div class="sectionContent">
-                    <article>
-                        <h2>First place on "Обединени идеи за България 2017" (United ideas for Bulgaria) - forum for social entrepreneurship </h2>
-                        <p class="subDetails">4 - 5 Sept 2017</p>
-                        <p>Creation of the team of "Избери Образование 2018" and making the prototype of the idea with which we won first place.</p>
-                    </article>
-                    <article>
-                        <h2>First place on "SoftUni TechFest 2016" </h2>
-                        <p class="subDetails">4 - 5 June 2016</p>
-                        <p>Developing an educational game using augmented reality and Unity3D.</p>
-                    </article>
-                </div>
-                <div class="clear"></div>
-            </section>
-
-
-
-            <section>
-                <div class="sectionTitle">
-                    <h1>Education</h1>
-                </div>
-
-                <div class="sectionContent">
-                    <article>
-                        <h2>Software University</h2>
-                        <p class="subDetails">Software Developer</p>
-                        <p><a href="https://softuni.bg/certificates/details/21070/55dbbe9d">Certification</a></p>
-                    </article>
-                </div>
-                <div class="clear"></div>
-            </section>
-            <section>
-                <div class="sectionTitle">
-                    <h1>Certifications</h1>
-                </div>
-
-                <div class="sectionContent">
-                    <article>
-                        <h2>MTA: Database Fundamentals</h2>
-                        <p class="subDetails">Certified 29 Oct 2017 </p>
-                        <p><a href="https://www.youracclaim.com/badges/5742d8c6-2983-47b6-9d4f-ff7550365a9d/linked_in_profile">Certification</a></p>
-                    </article>
-                    <article>
-                        <h2>MTA: Software Development Fundamentals </h2>
-                        <p class="subDetails">Certified 14 May 2017 </p>
-                        <p><a href="https://www.youracclaim.com/badges/cbe5b99a-c537-41c7-852d-99005a2b956d">Certification</a></p>
-                    </article>
-                </div>
-                <div class="clear"></div>
-            </section>
-
-        </div>
+        <!-- End Page Container -->
     </div>
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        var pageTracker = _gat._getTracker("UA-3753241-1");
-        pageTracker._initData();
-        pageTracker._trackPageview();
+
+    <footer class="cv-container cv-teal cv-center cv-margin-top">
+        <p>Find me on social media.</p>
+        <a class="fa fa-facebook-official cv-xlarge cv-hover-opacity"></a>
+        <a class="fa fa-github cv-xlarge cv-hover-opacity" href="https://www.linkedin.com/in/didi-milikina-7ab34b148/"></a>
+        <a class="fa fa-linkedin cv-xlarge cv-hover-opacity" href="https://www.linkedin.com/in/didi-milikina-7ab34b148/"></a>
+    </footer>
+    <script>
+        function toggleVisibility(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("cv-show") == -1) {
+                x.className += " cv-show";
+            } else {
+                x.className = x.className.replace(" cv-show", "");
+            }
+        }
     </script>
 </body>
 
