@@ -57,10 +57,10 @@
                         </p>
                         <hr>
 
-                        <p class="cv-large">
+                        <h3 class="cv-large">
                             <b>
                                 <i class="fa fa-lightbulb-o fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>Skills</b>
-                        </p>
+                        </h3>
 
                         <p><b>Back-end development with .NET</b><br>ASP.NET (Core), Entity Framework (Core), SQL Server, Azure </p>
                         <div class="cv-light-grey cv-round-xlarge cv-small">
@@ -97,10 +97,10 @@
                         </div>
                         <br>
 
-                        <p class="cv-large cv-text-theme">
+                        <h3 class="cv-large cv-text-theme">
                             <b>
                                 <i class="fa fa-globe fa-fw cv-margin-right cv-xlarge cv-text-teal"></i>Languages</b>
-                        </p>
+                        </h3>
                         <p>Bulgarian</p>
                         <div class="cv-light-grey cv-round-xlarge">
                             <div class="cv-round-xlarge cv-center cv-teal" style="height:24px;width:100%">Mother language</div>
@@ -114,6 +114,22 @@
                             <div class="cv-round-xlarge  cv-center cv-teal" style="height:24px;width:50%">B2 Level</div>
                         </div>
                         <br>
+                        <h3 class="cv-large cv-text-theme">
+                            <b>
+                                    <i class="fa fa-hashtag fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Interests</b>
+                        </h3>
+                        <ul>
+                            <li>Machine and Deep Learning</li>
+                            <li>Data Science</li>
+                            <li>Entrepreneurship</li>
+                            <li>Digital marketing</li>
+                            <li>Team and Project management</li>
+                            <li>Blockchain development</li>
+                            <li>IoT</li>
+                            <li>Web apps</li>
+                            <li>Mathematics</li>
+                            <li>Alternative education</li>
+                        </ul>
                     </div>
                 </div>
                 <br>
@@ -123,7 +139,7 @@
 
             <!-- Right Column -->
             <div class="cv-twothird">
-
+                <!-- Experience -->
                 <div class="cv-container cv-card cv-white cv-margin-bottom">
                     <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('work')">
                         <i class="fa fa-suitcase fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Work Experience
@@ -198,6 +214,7 @@
                     </div>
                 </div>
 
+                <!-- Education -->
                 <div class="cv-container cv-card cv-white cv-margin-bottom">
                     <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('education')">
                         <i class="fa fa-book fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Education
@@ -230,17 +247,86 @@
 
                         <div class="cv-container">
                             <h5 class="cv-opacity">
+                                <b><a target="blank" href="https://www.khanacademy.org/profile/stil9610/">Khan Academy</a></b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2015 -
+                                <span class="cv-tag cv-teal cv-round">Current</span>
+                            </h6>
+                            <hr>
+                        </div>
+
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
                                 <b><a target="blank" href="https://www.nbu.bg/">New Bulgarian University</a></b>
                             </h5>
                             <h6 class="cv-text-teal">
                                 <i class="fa fa-calendar fa-fw cv-margin-right"></i>2015 - 2015</h6>
                             <p>Dropped out after first semester.</p>
+                            <hr>
                         </div>
 
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b><a target="blank" href="https://www.egiv.net/">Language High-School "Ivan Vazov" in Plovdiv, Bulgaria</a></b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2010 - 2015</h6>
+                            <p>Studied Spanish and Spanish culture.</p>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Projects -->
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('projects')">
+                        <i class="fa fa-code fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Projects
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                    <div id="projects" class="cv-container cv-hide cv-show ">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Web app - BooksExchange</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Feb 2018 -
+                                <span class="cv-tag cv-teal cv-round">Current</span>
+                            </h6>
+                            <p>A platform inspired by the book crossing initiative and the trends of shared economy. The main idea is to give people the possibility to connect with others that have a given book in a given region and exchange one book for
+                                another without actually putting any monetary value in the exchanged books. This way small communites can be created withing cities/regions/counties or even within a company/school or university. The biggest goal is to
+                                create the biggest open library that enables the books to travel all over the world. Future thoughts for the platform is to implement a blockchain (possibly <b>Hyperledger</b>) solution so that all exchanges can be kept
+                                in a ledger. <br> For the front-end we are using <b>React.js</b> with the material design MDL Lite library for styling the interface. For the back-end we are using <b>ASP.NET Core with EF Core and SQL Server.</b>
+                            </p>
+                            <p><a target="blank" href="https://booksexchange.bitbucket.io/">Demo website</a> - The demo website currently has a lot of placeholder info and media until the actual "content" is poured in./</p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Mobile Game - Cubic</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Feb 2016 - Jul 2016</h6>
+                            <p>This is a project that we started with a few friends but didn't manage to release because the team fell apart. The game was intended to be a 2D arcade shooter and was made using <b>Unity3D and Mono.</b> </p>
+                            <p><a target="blank" href="https://www.facebook.com/CubicTheRealDeal/">Facebook page</a></p>
+                            <p><a target="blank" href="https://bitbucket.org/kukeri/cubic/src">Source code</a></p>
+                            <hr>
+                        </div>
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Mobile Game - Ruvis</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Apr 2016 - Jul 2016</h6>
+                            <p>This is a project that we started with a few friends but didn't manage to release because the team fell apart. The game was intended to be an educational 3D game using augmented reality and was made using <b>Unity3D, Vuforia and Mono.</b>We
+                                managed to win <b>first place on <a target="blank" href="http://techfest.softuni.bg/techfest-2016/">SoftUni tech fest</a></b> with the prototype of the project.</p>
+                            <p><a target="blank" href="https://www.facebook.com/RuvisTheGame/">Facebook page</a></p>
+                            <p><a target="blank" href="https://bitbucket.org/kukeri/ruvis/src">Source code</a></p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Certificates -->
                 <div class="cv-container cv-card cv-white cv-margin-bottom">
                     <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('certificates')">
                         <i class="fa fa-certificate fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Certificates
@@ -322,42 +408,9 @@
                     </div>
                 </div>
 
-                <div class="cv-container cv-card cv-white cv-margin-bottom">
-                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('projects')">
-                        <i class="fa fa-code fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Projects
-                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
-                    </h2>
-                    <div id="projects" class="cv-container cv-hide ">
-                        <div class="cv-container">
-                            <h5 class="cv-opacity">
-                                <b>cvSchools.com</b>
-                            </h5>
-                            <h6 class="cv-text-teal">
-                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Forever</h6>
-                            <p>Web Development! All I need to know in one place</p>
-                            <hr>
-                        </div>
-                        <div class="cv-container">
-                            <h5 class="cv-opacity">
-                                <b>London Business School</b>
-                            </h5>
-                            <h6 class="cv-text-teal">
-                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2013 - 2015</h6>
-                            <p>Master Degree</p>
-                            <hr>
-                        </div>
-                        <div class="cv-container">
-                            <h5 class="cv-opacity">
-                                <b>School of Coding</b>
-                            </h5>
-                            <h6 class="cv-text-teal">
-                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>2010 - 2013</h6>
-                            <p>Bachelor Degree</p>
-                            <br>
-                        </div>
-                    </div>
-                </div>
 
+
+                <!-- Volunteering -->
                 <div class="cv-container cv-card cv-white cv-margin-bottom">
                     <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('volunteering')">
                         <i class="fa fa-heart fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Volunteering
@@ -414,8 +467,8 @@
 
     <footer class="cv-container cv-teal cv-center cv-margin-top">
         <p>Find me on social media.</p>
-        <a target="blank" class="fa fa-facebook-official cv-xlarge cv-hover-opacity"></a>
-        <a target="blank" class="fa fa-github cv-xlarge cv-hover-opacity" href="https://www.facebook.com/profile.php?id=100000523513211"></a>
+        <a target="blank" class="fa fa-facebook-official cv-xlarge cv-hover-opacity" href="https://www.facebook.com/profile.php?id=100000523513211"></a>
+        <a target="blank" class="fa fa-github cv-xlarge cv-hover-opacity" href="https://github.com/Bojo966"></a>
         <a target="blank" class="fa fa-linkedin cv-xlarge cv-hover-opacity" href="https://www.linkedin.com/in/bozhidar-gevechanov/"></a>
     </footer>
     <script>
