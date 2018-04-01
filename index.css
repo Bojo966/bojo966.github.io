@@ -37,7 +37,7 @@ summary {
     display: block
 }
 
-footer a{
+footer a {
     text-decoration: none;
     margin-right: 5px;
     margin-bottom: 15px;
@@ -1299,8 +1299,8 @@ a {
     text-align: right!important
 }
 
-.cv-right-chevron-down{
-   float: right;
+.cv-right-chevron-down {
+    float: right;
 }
 
 .cv-justify {
@@ -1558,7 +1558,7 @@ a {
 .cv-teal,
 .cv-hover-teal:hover {
     color: #fff!important;
-    background-color: #009688!important
+    background-color: #0093C6!important
 }
 
 .cv-yellow,
@@ -1726,7 +1726,7 @@ a {
 
 .cv-text-teal,
 .cv-hover-text-teal:hover {
-    color: #009688!important
+    color: #0093C6!important
 }
 
 .cv-text-yellow,
@@ -1865,7 +1865,7 @@ a {
 
 .cv-border-teal,
 .cv-hover-border-teal:hover {
-    border-color: #009688!important
+    border-color: #0093C6!important
 }
 
 .cv-border-yellow,
